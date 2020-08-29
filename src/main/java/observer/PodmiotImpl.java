@@ -7,7 +7,7 @@ public class PodmiotImpl implements Podmiot {
 
     private List<Obserwator> obserwatorList = new ArrayList<>();
 
-    int counter = 1;
+    int counter = 0;
 
     @Override
     public void zarejestrujObserwatora(Obserwator obserwator) {
